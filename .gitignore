@@ -1,0 +1,10 @@
+.tools/
+node_modules/
+android/.gradle/
+android/local.properties
+android/**/build/
+output/*
+!output/.gitkeep
+*.keystore
+__pycache__/
+.DS_Store

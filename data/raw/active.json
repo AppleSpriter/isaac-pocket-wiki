@@ -1,0 +1,3329 @@
+{
+  "kind": "items",
+  "version": "忏悔+",
+  "date": "2026-09-22",
+  "source": "https://isaac.huijiwiki.com/wiki/%E9%81%93%E5%85%B7",
+  "entries": [
+    {
+      "category": "active",
+      "id": 33,
+      "name": "圣经",
+      "en": "The Bible",
+      "quality": "I",
+      "quote": "暂时性飞行",
+      "effect": "使用后，获得飞行效果。",
+      "tags": [
+        "非游魂长子名分",
+        "书",
+        "天使"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C33",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-416px -32px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 34,
+      "name": "彼列之书",
+      "en": "The Book of Belial",
+      "quality": "II",
+      "quote": "暂时性伤害上升",
+      "effect": "使用后，在当前房间内伤害上升。",
+      "tags": [
+        "书",
+        "攻击性",
+        "拉撒路全局共享"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C34",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-448px -32px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 35,
+      "name": "死灵之书",
+      "en": "The Necronomicon",
+      "quality": null,
+      "quote": "群体伤害",
+      "effect": "使用后，对所有敌人造成伤害。",
+      "tags": [
+        "书",
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C35",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-480px -32px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 36,
+      "name": "大便",
+      "en": "The Poop",
+      "quality": null,
+      "quote": "噗！",
+      "effect": "使用后，生成一个大便。",
+      "tags": [
+        "大便"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C36",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-512px -32px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 37,
+      "name": "炸弹先生",
+      "en": "Mr. Boom",
+      "quality": "I",
+      "quote": "充能型炸弹伙伴",
+      "effect": "使用后，放置一个大炸弹。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C37",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-544px -32px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 38,
+      "name": "塔米猫的头",
+      "en": "Tammy's Head",
+      "quality": "I",
+      "quote": "充能型泪弹喷射",
+      "effect": "使用后，向周围发射十颗泪弹。",
+      "tags": [
+        "死亡",
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C38",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-576px -32px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 39,
+      "name": "妈妈的胸罩",
+      "en": "Mom's Bra",
+      "quality": null,
+      "quote": "群体麻痹",
+      "effect": "使用后，使房间中的所有敌人石化。",
+      "tags": [
+        "妈妈",
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C39",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-608px -32px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 40,
+      "name": "神风！",
+      "en": "Kamikaze!",
+      "quality": null,
+      "quote": "变成炸弹！",
+      "effect": "使用后，在角色的位置产生一次爆炸，对附近的敌人造成伤害。",
+      "tags": [
+        "非游魂长子名分"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C40",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "0px -64px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 41,
+      "name": "妈妈的卫生巾",
+      "en": "Mom's Pad",
+      "quality": null,
+      "quote": "群体恐惧",
+      "effect": "使用后，使房间中的所有敌人恐惧。",
+      "tags": [
+        "妈妈",
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C41",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-32px -64px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 42,
+      "name": "鲍勃的烂头",
+      "en": "Bob's Rotten Head",
+      "quality": "I",
+      "quote": "充能型投掷炸弹",
+      "effect": "使用后，丢出一颗炸弹，造成爆炸伤害并留下使敌方中毒的绿色毒物。",
+      "tags": [
+        "鲍勃",
+        "死亡",
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C42",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-64px -64px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 44,
+      "name": "传送！",
+      "en": "Teleport!",
+      "quality": null,
+      "quote": "传送！",
+      "effect": "使用后，随机传送到一个房间。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C44",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-96px -64px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 45,
+      "name": "美味的心",
+      "en": "Yum Heart",
+      "quality": "I",
+      "quote": "充能型体力回复",
+      "effect": "使用后，回复一颗红心。",
+      "tags": [
+        "非游魂长子名分"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C45",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-128px -64px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 47,
+      "name": "胎儿博士的遥控器",
+      "en": "Doctor's Remote",
+      "quality": "I",
+      "quote": "充能型空袭",
+      "effect": "使用后，控制光标，落下一枚导弹，造成爆炸伤害。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C47",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-192px -64px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 49,
+      "name": "嗖-哒-呜！",
+      "en": "Shoop da Whoop!",
+      "quality": "II",
+      "quote": "哇啦啦啦啦！",
+      "effect": "使用后，向指定方向发射一道激光柱。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C49",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-256px -64px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 56,
+      "name": "烦事柠檬",
+      "en": "Lemon Mishap",
+      "quality": null,
+      "quote": "哎呀…",
+      "effect": "使用后，生成一摊黄色水迹，对敌人造成伤害。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C56",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-480px -64px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 58,
+      "name": "影之书",
+      "en": "Book of Shadows",
+      "quality": "III",
+      "quote": "暂时性无敌",
+      "effect": "使用后，角色在当前房间中获得一个免疫所有伤害的护盾。",
+      "tags": [
+        "书"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C58",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-544px -64px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 65,
+      "name": "无政府主义者食谱",
+      "en": "Anarchist Cookbook",
+      "quality": null,
+      "quote": "召唤炸弹",
+      "effect": "使用后，生成6个即爆炸弹。",
+      "tags": [
+        "书",
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C65",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-96px -96px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 66,
+      "name": "沙漏",
+      "en": "The Hourglass",
+      "quality": null,
+      "quote": "暂时性减速敌人",
+      "effect": "使用后，使房间中的所有敌人减速。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C66",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-128px -96px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 77,
+      "name": "彩虹独角兽",
+      "en": "My Little Unicorn",
+      "quality": "I",
+      "quote": "暂时性横冲直撞",
+      "effect": "使用后，移速上升，角色获得无敌状态，无法发射泪弹，对接触的敌人造成伤害。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C77",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-480px -96px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 78,
+      "name": "启示录",
+      "en": "Book of Revelations",
+      "quality": "III",
+      "quote": "充能型魂心保护",
+      "effect": "使用后，获得一颗魂心，使本层遇到天启骑士。",
+      "tags": [
+        "非游魂长子名分",
+        "书",
+        "拉撒路全局共享"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C78",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-512px -96px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 83,
+      "name": "钉子",
+      "en": "The Nail",
+      "quality": "II",
+      "quote": "暂时性恶魔形态",
+      "effect": "使用后，黑心+0.5，当前房间中伤害上升，移速下降，可以摧毁触碰的可摧毁障碍物。",
+      "tags": [
+        "恶魔"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C83",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-32px -128px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 84,
+      "name": "我们需要深入挖掘！",
+      "en": "We Need To Go Deeper!",
+      "quality": "II",
+      "quote": "充能型跳关",
+      "effect": "使用后，生成一个活板门，在指定位置使用改为生成一个暗门。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C84",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-64px -128px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 85,
+      "name": "卡牌盒",
+      "en": "Deck of Cards",
+      "quality": "II",
+      "quote": "充能型生成卡牌",
+      "effect": "使用后，获得一个卡牌。",
+      "tags": [
+        "攻击性",
+        "非大量过牌",
+        "星星"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C85",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-96px -128px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 86,
+      "name": "萌死戳的牙",
+      "en": "Monstro's Tooth",
+      "quality": null,
+      "quote": "召唤萌死戳",
+      "effect": "使用后，生成萌死戳从天而降，对敌人造成伤害。没有敌人则对角色造成伤害。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C86",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-128px -128px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 93,
+      "name": "游戏掌机",
+      "en": "The Gamekid",
+      "quality": "I",
+      "quote": "暂时型吃豆人",
+      "effect": "使用后，使房间中的所有敌人恐惧。角色获得无敌状态，无法发射泪弹，对接触敌人造成伤害，消灭敌人时有概率回复半颗红心。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C93",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-352px -128px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 97,
+      "name": "七原罪之书",
+      "en": "The Book of Sin",
+      "quality": "I",
+      "quote": "充能型掉落物生成",
+      "effect": "使用后，生成一个随机掉落物。",
+      "tags": [
+        "书",
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C97",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-480px -128px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 102,
+      "name": "妈妈的药瓶",
+      "en": "Mom's Bottle of Pills",
+      "quality": "I",
+      "quote": "充能型生成胶囊",
+      "effect": "使用后，获得一个胶囊。",
+      "tags": [
+        "妈妈",
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C102",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "0px -160px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 105,
+      "name": "六面骰",
+      "en": "The D6",
+      "quality": "IV",
+      "quote": "重置你的命运",
+      "effect": "使用后，重置房间内所有的道具。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C105",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-96px -160px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 107,
+      "name": "锯齿剪",
+      "en": "The Pinking Shears",
+      "quality": "II",
+      "quote": "断头逃生",
+      "effect": "使用后，角色在当前房间获得飞行效果，身体追踪靠近的敌人，对接触的敌人造成伤害。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C107",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-160px -160px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 111,
+      "name": "豆子",
+      "en": "The Bean",
+      "quality": null,
+      "quote": "充能型放屁",
+      "effect": "使用后，角色释放毒屁，对附近的敌人造成伤害并中毒。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C111",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-288px -160px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 123,
+      "name": "怪物手册",
+      "en": "Monster Manual",
+      "quality": "I",
+      "quote": "暂时型生成伙伴",
+      "effect": "使用后，当前楼层内获得一个随机跟班。",
+      "tags": [
+        "书",
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C123",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-32px -192px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 124,
+      "name": "死海古卷",
+      "en": "Dead Sea Scrolls",
+      "quality": "I",
+      "quote": "这是个谜",
+      "effect": "使用后，随机触发一个主动道具的使用效果。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C124",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-64px -192px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 126,
+      "name": "剃刀片",
+      "en": "Razor Blade",
+      "quality": null,
+      "quote": "感受我的痛苦",
+      "effect": "使用后，角色受到一颗心的伤害，当前房间内伤害上升。",
+      "tags": [
+        "非游魂长子名分",
+        "恶魔献祭"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C126",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-128px -192px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 127,
+      "name": "遗忘药",
+      "en": "Forget Me Now",
+      "quality": "III",
+      "quote": "我不记得了…",
+      "effect": "使用后，重置当前层。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C127",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-160px -192px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 130,
+      "name": "小黑马",
+      "en": "A Pony",
+      "quality": "II",
+      "quote": "飞行+冲刺攻击",
+      "effect": "角色获得飞行效果，移速最小值提升至1.50。使用后，向当前方向冲撞，对接触的敌人造成伤害。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C130",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-256px -192px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 133,
+      "name": "嗝屁猫的爪子",
+      "en": "Guppy's Paw",
+      "quality": "III",
+      "quote": "魂心转换器",
+      "effect": "使用后，心之容器-1，魂心+3",
+      "tags": [
+        "非游魂长子名分",
+        "死亡",
+        "嗝屁猫"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C133",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-352px -192px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 135,
+      "name": "献血袋",
+      "en": "IV Bag",
+      "quality": "II",
+      "quote": "便携式献血机",
+      "effect": "使用后，受到半颗红心的伤害，生成硬币。",
+      "tags": [
+        "非游魂长子名分"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C135",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-416px -192px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 136,
+      "name": "最好的朋友",
+      "en": "Best Friend",
+      "quality": null,
+      "quote": "好朋友一辈子",
+      "effect": "使用后，放置一个可以吸引敌人的人偶，几秒后造成爆炸伤害。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C136",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-448px -192px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 137,
+      "name": "起爆器",
+      "en": "Remote Detonator",
+      "quality": null,
+      "quote": "遥控引爆炸弹",
+      "effect": "炸弹+5，角色放置的炸弹不再自动爆炸。使用后，引爆放置的所有炸弹。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C137",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-480px -192px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 145,
+      "name": "嗝屁猫的头",
+      "en": "Guppy's Head",
+      "quality": "II",
+      "quote": "充能型苍蝇巢",
+      "effect": "使用后，生成蓝苍蝇。",
+      "tags": [
+        "死亡",
+        "嗝屁猫",
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C145",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-96px -224px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 146,
+      "name": "祈祷卡",
+      "en": "Prayer Card",
+      "quality": "III",
+      "quote": "充能型永恒",
+      "effect": "使用后，永恒之心+1。",
+      "tags": [
+        "非游魂长子名分"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C146",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-128px -224px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 147,
+      "name": "残损铁镐",
+      "en": "Notched Axe",
+      "quality": "I",
+      "quote": "岩石无从招架",
+      "effect": "使用后，角色使用铁镐进行攻击。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C147",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-160px -224px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 158,
+      "name": "水晶球",
+      "en": "Crystal Ball",
+      "quality": "III",
+      "quote": "我看见了我的未来",
+      "effect": "使用后，显示本层地图，随机生成卡牌或魂心。",
+      "tags": [
+        "攻击性",
+        "星星",
+        "拉撒路全局共享"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C158",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-512px -224px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 160,
+      "name": "撕裂苍穹",
+      "en": "Crack the Sky",
+      "quality": "I",
+      "quote": "神圣洁白死光",
+      "effect": "使用后，生成数道圣光攻击敌人。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C160",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-576px -224px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 164,
+      "name": "蓝蜡烛",
+      "en": "The Candle",
+      "quality": "II",
+      "quote": "充能型火焰",
+      "effect": "使用后，发射一个蓝色火堆，对接触的敌人造成伤害，一段时间后消失。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C164",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-64px -256px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 166,
+      "name": "二十面骰",
+      "en": "D20",
+      "quality": "II",
+      "quote": "重置掉落物",
+      "effect": "使用后，重置当前房间中的所有掉落物。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C166",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-128px -256px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 171,
+      "name": "蜘蛛屁股",
+      "en": "Spider Butt",
+      "quality": "I",
+      "quote": "群体敌人减速+伤害",
+      "effect": "使用后，对房间中的所有敌人造成伤害并减速。",
+      "tags": [
+        "蜘蛛",
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C171",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-288px -256px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 175,
+      "name": "爸爸的钥匙",
+      "en": "Dad's Key",
+      "quality": "II",
+      "quote": "打开所有门…",
+      "effect": "使用后，打开当前房间中所有的门。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C175",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-416px -256px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 177,
+      "name": "便携式老虎机",
+      "en": "Portable Slot",
+      "quality": null,
+      "quote": "随时开赌",
+      "effect": "使用后，花费1枚硬币，有概率生成随机掉落物。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C177",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-480px -256px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 181,
+      "name": "小白马",
+      "en": "White Pony",
+      "quality": "III",
+      "quote": "飞行+神圣死光",
+      "effect": "角色获得飞行效果，移速最小值提升至1.50。使用后，向当前方向冲撞，对接触的敌人造成伤害，在冲撞的途径路线生成圣光。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C181",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-608px -256px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 186,
+      "name": "血之权利",
+      "en": "Blood Rights",
+      "quality": null,
+      "quote": "血偿群体伤害",
+      "effect": "使用后，角色受到1颗心的伤害，对房间中的所有敌人造成伤害。",
+      "tags": [
+        "非游魂长子名分",
+        "恶魔献祭"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C186",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-128px -288px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 192,
+      "name": "心灵感应傻瓜式教程",
+      "en": "Telepathy For Dummies",
+      "quality": "I",
+      "quote": "暂时性追踪泪弹",
+      "effect": "使用后，射程上升，当前房间中角色的泪弹获得追踪效果。",
+      "tags": [
+        "书",
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C192",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-320px -288px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 263,
+      "name": "透明符文",
+      "en": "Clear Rune",
+      "quality": "II",
+      "quote": "符文复制",
+      "effect": "生成一个符文/灵魂石。使用后，触发当前符文/灵魂石的效果并改变透明符文所需的充能。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C263",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "0px -416px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 282,
+      "name": "跳跃教程",
+      "en": "How to Jump",
+      "quality": "I",
+      "quote": "你也该学学了",
+      "effect": "使用后，向前跳跃。",
+      "tags": [
+        "非游魂长子名分",
+        "书",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C282",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-608px -416px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 283,
+      "name": "一百面骰",
+      "en": "D100",
+      "quality": "I",
+      "quote": "重置一切！",
+      "effect": "使用后，依次触发各个骰子的道具效果。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C283",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "0px -448px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 284,
+      "name": "四面骰",
+      "en": "D4",
+      "quality": "I",
+      "quote": "重置自己",
+      "effect": "使用后，重置角色的所有被动道具。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C284",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-32px -448px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 285,
+      "name": "十面骰",
+      "en": "D10",
+      "quality": "I",
+      "quote": "重置敌人",
+      "effect": "使用后，将房间内的所有怪物降级。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C285",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-64px -448px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 286,
+      "name": "空白卡牌",
+      "en": "Blank Card",
+      "quality": "II",
+      "quote": "卡牌复制",
+      "effect": "使用后，触发当前卡牌的效果并改变空白卡牌所需的充能。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C286",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-96px -448px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 287,
+      "name": "秘密之书",
+      "en": "Book of Secrets",
+      "quality": null,
+      "quote": "知识之卷",
+      "effect": "使用后，在当前楼层中，随机获得 指南针、 藏宝图或 蓝地图中一个的效果，若全部拥有则获得 X光透视的效果。",
+      "tags": [
+        "书",
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C287",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-128px -448px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 288,
+      "name": "蜘蛛盒",
+      "en": "Box of Spiders",
+      "quality": "I",
+      "quote": "这是一盒蜘蛛",
+      "effect": "使用后，生成蓝蜘蛛。",
+      "tags": [
+        "蜘蛛",
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C288",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-160px -448px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 289,
+      "name": "红蜡烛",
+      "en": "Red Candle",
+      "quality": "I",
+      "quote": "点火",
+      "effect": "使用后，发射一个火堆，对接触的敌人造成伤害。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C289",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-192px -448px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 290,
+      "name": "罐子",
+      "en": "The Jar",
+      "quality": null,
+      "quote": "储存你的生命",
+      "effect": "可以储存至多四颗红心。使用后，生成储存的红心。",
+      "tags": [
+        "非游魂长子名分",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C290",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-224px -448px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 291,
+      "name": "冲水！",
+      "en": "Flush!",
+      "quality": "I",
+      "quote": "...",
+      "effect": "使用后，将本房间内的所有敌人变成大便。",
+      "tags": [
+        "大便",
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C291",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-256px -448px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 292,
+      "name": "撒但圣经",
+      "en": "Satanic Bible",
+      "quality": "III",
+      "quote": "充能型邪恶...但代价是什么？",
+      "effect": "使用后，黑心+1。将头目房的奖励道具替换为恶魔交易。",
+      "tags": [
+        "书",
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C292",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-288px -448px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 293,
+      "name": "坎卜斯的头",
+      "en": "Head of Krampus",
+      "quality": "I",
+      "quote": "坎卜斯的怒火",
+      "effect": "使用后，发射十字鲜血激光柱。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C293",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-320px -448px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 294,
+      "name": "棉豆",
+      "en": "Butter Bean",
+      "quality": null,
+      "quote": "充能型击退",
+      "effect": "使用后，角色会放屁并击退附近的敌人。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C294",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-352px -448px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 295,
+      "name": "魔术手指",
+      "en": "Magic Fingers",
+      "quality": null,
+      "quote": "充钱制胜",
+      "effect": "使用后，硬币-1，对当前房间内的所有敌人造成伤害。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C295",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-384px -448px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 296,
+      "name": "转换器",
+      "en": "Converter",
+      "quality": "I",
+      "quote": "转换魂心",
+      "effect": "使用后，魂心-1，心之容器+1。",
+      "tags": [
+        "非游魂长子名分"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C296",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-416px -448px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 297,
+      "name": "潘多拉魔盒",
+      "en": "Pandora's Box",
+      "quality": "II",
+      "quote": "? ?",
+      "effect": "使用后，根据当前层数获得不同的效果。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C297",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-448px -448px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 298,
+      "name": "独角兽的残角",
+      "en": "Unicorn Stump",
+      "quality": "I",
+      "quote": "你感受到脚步沉重",
+      "effect": "使用后，移速上升，角色获得无敌状态，无法发射泪弹。",
+      "tags": [],
+      "source": "https://isaac.huijiwiki.com/wiki/C298",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-480px -448px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 323,
+      "name": "以撒的泪盆",
+      "en": "Isaac's Tears",
+      "quality": "I",
+      "quote": "收集眼泪",
+      "effect": "角色每发射一次泪弹，增加1格充能。使用后，向周围发射八颗泪弹。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C323",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "0px -512px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 324,
+      "name": "未定义",
+      "en": "Undefined",
+      "quality": "I",
+      "quote": "未定义",
+      "effect": "使用后，随机选择一个类型为宝箱房、隐藏房、超级隐藏房或错误房的房间进行传送。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C324",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-32px -512px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 325,
+      "name": "剪刀",
+      "en": "Scissors",
+      "quality": null,
+      "quote": "丢下你的头",
+      "effect": "使用后，当前房间内将头留在原地变为一个发射泪弹的跟班。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C325",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-64px -512px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 326,
+      "name": "生命之息",
+      "en": "Breath of Life",
+      "quality": "I",
+      "quote": "血偿无敌",
+      "effect": "按住使用键时，当充能被耗尽，角色会蓝白闪烁并进入无敌状态，对接触的敌人造成伤害，并生成圣光柱，按住使用键角色会持续受到伤害。",
+      "tags": [
+        "非游魂长子名分",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C326",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-96px -512px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 338,
+      "name": "回旋镖",
+      "en": "The Boomerang",
+      "quality": "I",
+      "quote": "永不离手",
+      "effect": "使用后，角色丢出回旋镖，石化敌人，并拾取掉落物。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C338",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-480px -512px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 347,
+      "name": "复视",
+      "en": "Diplopia",
+      "quality": "III",
+      "quote": "道具重影",
+      "effect": "使用后，复制房间中的所有物品。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C347",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-128px -544px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 348,
+      "name": "安慰剂",
+      "en": "Placebo",
+      "quality": "I",
+      "quote": "胶囊复制",
+      "effect": "使用后，触发当前胶囊的效果。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C348",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-160px -544px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 349,
+      "name": "木制镍币",
+      "en": "Wooden Nickel",
+      "quality": "I",
+      "quote": "掷硬币",
+      "effect": "使用后，概率生成1枚硬币。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C349",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-192px -544px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 351,
+      "name": "超级豆子",
+      "en": "Mega Bean",
+      "quality": "I",
+      "quote": "超大的屁！",
+      "effect": "使用后，石化所有敌人，对附近的敌人造成伤害。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C351",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-256px -544px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 352,
+      "name": "玻璃大炮",
+      "en": "Glass Cannon",
+      "quality": "I",
+      "quote": "轻拿轻放...",
+      "effect": "受伤额外受到两颗心伤害，且该道具损坏。使用后，发射巨大泪弹。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C352",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-288px -544px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 357,
+      "name": "朋友盒",
+      "en": "Box of Friends",
+      "quality": "I",
+      "quote": "朋友翻倍",
+      "effect": "使用后，在当前房间中复制所有跟班。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C357",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-448px -544px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 382,
+      "name": "友好球",
+      "en": "Friendly Ball",
+      "quality": "I",
+      "quote": "收服所有怪物吧！",
+      "effect": "使用后，丢出友好球捕捉怪物或将捕捉的怪物放出。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C382",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-608px -576px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 383,
+      "name": "眼泪引爆器",
+      "en": "Tear Detonator",
+      "quality": "I",
+      "quote": "遥控引爆泪弹",
+      "effect": "使用后，角色在空中的所有泪弹分裂成6颗。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C383",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "0px -608px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 386,
+      "name": "十二面骰",
+      "en": "D12",
+      "quality": "I",
+      "quote": "重置岩石",
+      "effect": "使用后，重置房间中的所有岩石。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C386",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-96px -608px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 396,
+      "name": "心室手术刀",
+      "en": "Ventricle Razor",
+      "quality": null,
+      "quote": "切入捷径",
+      "effect": "使用后，生成一个黄色或蓝色的传送门，角色可以在传送门间传送。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C396",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-416px -608px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 406,
+      "name": "八面骰",
+      "en": "D8",
+      "quality": "I",
+      "quote": "重置属性",
+      "effect": "使用后，重置属性。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C406",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-96px -640px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 419,
+      "name": "传送2.0",
+      "en": "Teleport 2.0",
+      "quality": "III",
+      "quote": "智能传送！",
+      "effect": "使用后，随机传送到一个未进入过的房间。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C419",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-512px -640px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 421,
+      "name": "腰豆",
+      "en": "Kidney Bean",
+      "quality": null,
+      "quote": "魅惑屁",
+      "effect": "使用后，魅惑附近的敌人。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C421",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-576px -640px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 422,
+      "name": "发光沙漏",
+      "en": "Glowing Hourglass",
+      "quality": "III",
+      "quote": "逆转时间",
+      "effect": "使用后，将时间倒转到上一个房间。",
+      "tags": [
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C422",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-608px -640px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 427,
+      "name": "工矿炸药包",
+      "en": "Mine Crafter",
+      "quality": "I",
+      "quote": "轰！",
+      "effect": "使用后，放置一个可移动的TNT。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C427",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-128px -672px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 434,
+      "name": "苍蝇罐",
+      "en": "Jar of Flies",
+      "quality": "II",
+      "quote": "捕虫器",
+      "effect": "消灭敌人会变为蓝苍蝇储存在罐子中。使用后，将蓝苍蝇释放出来。",
+      "tags": [
+        "攻击性",
+        "非大量过牌",
+        "苍蝇"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C434",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-352px -672px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 437,
+      "name": "七面骰",
+      "en": "D7",
+      "quality": "I",
+      "quote": "重置房间",
+      "effect": "使用后，重置房间，角色可以再次清理该房间。",
+      "tags": [
+        "攻击性",
+        "非贪婪模式"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C437",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-448px -672px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 439,
+      "name": "妈妈的盒子",
+      "en": "Mom's Box",
+      "quality": "II",
+      "quote": "里面有什么？",
+      "effect": "饰品效果翻倍，幸运上升。使用后，随机生成1个饰品。",
+      "tags": [
+        "妈妈",
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C439",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-512px -672px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 441,
+      "name": "超级喷射",
+      "en": "Mega Blast",
+      "quality": "IV",
+      "quote": "激光吐息",
+      "effect": "使用后，喷射巨大的血激光柱，持续15秒。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C441",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-576px -672px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 474,
+      "name": "损坏的玻璃大炮",
+      "en": "Broken Glass Cannon",
+      "quality": null,
+      "quote": "你把它摔坏了！",
+      "effect": "充满后，修好玻璃大炮。",
+      "tags": [
+        "非伊甸"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C474",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-352px -736px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 475,
+      "name": "计划C",
+      "en": "Plan C",
+      "quality": null,
+      "quote": "最终手段",
+      "effect": "使用后，消灭所有敌人，3秒后消灭角色。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C475",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-384px -736px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 476,
+      "name": "一面骰",
+      "en": "D1",
+      "quality": "II",
+      "quote": "会是什么？",
+      "effect": "使用后，随机复制1个掉落物。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C476",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-416px -736px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 477,
+      "name": "虚空",
+      "en": "Void",
+      "quality": "III",
+      "quote": "吞噬",
+      "effect": "使用后，吞噬房间中的所有道具，被动道具变为属性加成，主动道具的效果被加入虚空。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C477",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-448px -736px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 478,
+      "name": "暂停",
+      "en": "Pause",
+      "quality": null,
+      "quote": "定！",
+      "effect": "使用后，冻结所有敌人，直到玩家按下射击键。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C478",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-480px -736px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 479,
+      "name": "熔炉",
+      "en": "Smelter",
+      "quality": "II",
+      "quote": "熔炼饰品！",
+      "effect": "使用后，将饰品变为被动道具。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C479",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-512px -736px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 480,
+      "name": "堆肥",
+      "en": "Compost",
+      "quality": null,
+      "quote": "获得更多朋友！",
+      "effect": "使用后，将房间中的掉落物变为蓝苍蝇或蓝蜘蛛。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C480",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-544px -736px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 481,
+      "name": "数据破解",
+      "en": "Dataminer",
+      "quality": null,
+      "quote": "109",
+      "effect": "使用后，贴图旋转，随机泪弹特效，随机属性增减。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C481",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-576px -736px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 482,
+      "name": "遥控器",
+      "en": "Clicker",
+      "quality": null,
+      "quote": "换台",
+      "effect": "使用后，变换人物，失去1个道具。",
+      "tags": [
+        "非游魂长子名分",
+        "非挑战"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C482",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-608px -736px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 483,
+      "name": "妈咪炸弹！",
+      "en": "Mama Mega!",
+      "quality": "III",
+      "quote": "砰砰砰砰砰！",
+      "effect": "使用后，打开本层所有的门，摧毁本层所有障碍物，对本层所有敌人造成大量伤害。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C483",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "0px -768px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 484,
+      "name": "等等，啥？",
+      "en": "Wait What?",
+      "quality": "I",
+      "quote": "惊了，这道具居然不是棉豆！",
+      "effect": "使用后，角色放屁，并发射石刃波。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C484",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-32px -768px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 485,
+      "name": "被掰弯的硬币",
+      "en": "Crooked Penny",
+      "quality": "II",
+      "quote": "一半一半",
+      "effect": "使用后，硬币+1，概率复制房间中的所有物品，否则使它们消失。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C485",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-64px -768px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 486,
+      "name": "钝剃刀片",
+      "en": "Dull Razor",
+      "quality": null,
+      "quote": "感觉不痛不痒...",
+      "effect": "使用后，触发一次受伤的效果。",
+      "tags": [],
+      "source": "https://isaac.huijiwiki.com/wiki/C486",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-96px -768px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 487,
+      "name": "土豆削皮刀",
+      "en": "Potato Peeler",
+      "quality": "II",
+      "quote": "一磅肉…",
+      "effect": "使用后，心之容器-1，获得一个肉块，伤害上升，射程上升。",
+      "tags": [
+        "非游魂长子名分"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C487",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-128px -768px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 488,
+      "name": "节拍器",
+      "en": "Metronome",
+      "quality": "I",
+      "quote": "摇手指",
+      "effect": "使用后，当前房间中获得随机道具效果。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C488",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-160px -768px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 489,
+      "name": "无限面骰",
+      "en": "D infinity",
+      "quality": "IV",
+      "quote": "重置永恒",
+      "effect": "可以作为任意骰子使用。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C489",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-192px -768px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 490,
+      "name": "伊甸的灵魂",
+      "en": "Eden's Soul",
+      "quality": "II",
+      "quote": "...",
+      "effect": "使用后，道具+2。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C490",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-224px -768px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 504,
+      "name": "棕色粪块",
+      "en": "Brown Nugget",
+      "quality": null,
+      "quote": "友好苍蝇",
+      "effect": "使用后，生成会对附近的敌人发射泪弹的自机苍蝇跟班。",
+      "tags": [
+        "大便",
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C504",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-32px -800px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 507,
+      "name": "尖头吸管",
+      "en": "Sharp Straw",
+      "quality": "II",
+      "quote": "更多的血！",
+      "effect": "使用后，对房间中的所有敌人造成伤害，概率生成半魂心。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C507",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-128px -800px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 510,
+      "name": "精神错乱",
+      "en": "Delirious",
+      "quality": "I",
+      "quote": "释放力量！",
+      "effect": "使用后，生成一个被友好的头目。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C510",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-224px -800px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 512,
+      "name": "黑洞",
+      "en": "Black Hole",
+      "quality": "I",
+      "quote": "无人能逃",
+      "effect": "使用后，抛出一个吸引所有东西的黑洞。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C512",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-288px -800px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 515,
+      "name": "神秘礼物",
+      "en": "Mystery Gift",
+      "quality": "III",
+      "quote": "为你精心包装！",
+      "effect": "使用后，生成1个随机道具。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C515",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-384px -800px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 516,
+      "name": "洒水器",
+      "en": "Sprinkler",
+      "quality": "I",
+      "quote": "洒水",
+      "effect": "使用后，生成1个洒水器，自动向外发射泪弹，离开房间后消失。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C516",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-416px -800px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 521,
+      "name": "代金券",
+      "en": "Coupon",
+      "quality": "II",
+      "quote": "6周内交货",
+      "effect": "使用后，使房间中的随机1个物品免费。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C521",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-576px -800px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 522,
+      "name": "念力",
+      "en": "Telekinesis",
+      "quality": "I",
+      "quote": "意志的力量",
+      "effect": "使用后，角色周围的敌人的泪弹停止移动，持续2秒。2秒后这些泪弹被弹回。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C522",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-608px -800px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 523,
+      "name": "搬家盒",
+      "en": "Moving Box",
+      "quality": "I",
+      "quote": "打包再拆包",
+      "effect": "使用后，将物品打包到盒子中；或者将盒子中的物品放出来。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C523",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "0px -832px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 527,
+      "name": "自我先生！",
+      "en": "Mr. ME!",
+      "quality": "III",
+      "quote": "使命必达！",
+      "effect": "使用后，生成1个分身，能够拾取掉落物或炸开隐藏房。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C527",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-128px -832px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 536,
+      "name": "祭坛",
+      "en": "Sacrificial Altar",
+      "quality": "I",
+      "quote": "他寻求献祭",
+      "effect": "使用后，至多2个跟班消失，生成2个恶魔房道具。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C536",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-416px -832px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 545,
+      "name": "亡者之书",
+      "en": "Book of the Dead",
+      "quality": "II",
+      "quote": "卷土重来",
+      "effect": "使用后，将房间中的死过的怪物变为环绕物或友好的骨骨。",
+      "tags": [
+        "书",
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C545",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-64px -864px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 550,
+      "name": "铲子碎片",
+      "en": "Broken Shovel",
+      "quality": "IV",
+      "quote": "感觉被诅咒了",
+      "effect": "不断被妈妈踩。使用后，当前房间中不会被踩。",
+      "tags": [
+        "攻击性",
+        "非伊甸",
+        "拉撒路全局共享",
+        "任务"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C550",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-224px -864px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 552,
+      "name": "妈妈的铲子",
+      "en": "Mom's Shovel",
+      "quality": "IV",
+      "quote": "迷失而未被遗忘",
+      "effect": "使用后，生成一个通往下一层的活板门或暗门，或者挖坟。",
+      "tags": [
+        "妈妈",
+        "攻击性",
+        "非伊甸",
+        "拉撒路全局共享",
+        "任务"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C552",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-288px -864px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 555,
+      "name": "金剃刀片",
+      "en": "Golden Razor",
+      "quality": null,
+      "quote": "有得有失",
+      "effect": "硬币+5。使用后，消耗5硬币，当前房间伤害上升。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C555",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-384px -864px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 556,
+      "name": "炼金硫磺",
+      "en": "Sulfur",
+      "quality": "II",
+      "quote": "暂时性恶魔形态",
+      "effect": "使用后，在当前房间内获得 硫磺火的效果。",
+      "tags": [
+        "恶魔",
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C556",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-416px -864px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 557,
+      "name": "幸运饼干",
+      "en": "Fortune Cookie",
+      "quality": "II",
+      "quote": "充能型预言",
+      "effect": "使用后，触发预言机的效果。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C557",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-448px -864px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 577,
+      "name": "达摩克里斯之剑",
+      "en": "Damocles",
+      "quality": "III",
+      "quote": "国王的财富...但代价是什么？",
+      "effect": "使用后，以后的所有道具变为两倍，受伤后剑随时可能落下杀死角色。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C577",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-448px -896px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 578,
+      "name": "免费柠檬水",
+      "en": "Free Lemonade",
+      "quality": null,
+      "quote": "派对时间到！",
+      "effect": "使用后，触发 柠檬派对的效果。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C578",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-480px -896px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 580,
+      "name": "红钥匙",
+      "en": "Red Key",
+      "quality": "III",
+      "quote": "探索另一面",
+      "effect": "使用后，创造红色房间并开启这个房间的门。",
+      "tags": [
+        "攻击性",
+        "非大量过牌",
+        "非贪婪模式"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C580",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-544px -896px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 582,
+      "name": "迷幻蘑菇",
+      "en": "Wavy Cap",
+      "quality": null,
+      "quote": "射速上升。颠覆五感的体验！",
+      "effect": "使用后，射速上升，移速下降，摇晃背景。",
+      "tags": [
+        "蘑菇",
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C582",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-608px -896px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 585,
+      "name": "白玉香膏盒",
+      "en": "Alabaster Box",
+      "quality": "I",
+      "quote": "神圣献礼",
+      "effect": "使用后，生成3个魂心和2个天使房道具。只能用魂心充能。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C585",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-64px -928px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 604,
+      "name": "妈妈的手镯",
+      "en": "Mom's Bracelet",
+      "quality": "I",
+      "quote": "母亲的力量",
+      "effect": "使用后，举起并投掷障碍物。",
+      "tags": [
+        "妈妈",
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C604",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "0px -960px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 605,
+      "name": "挖眼勺",
+      "en": "The Scooper",
+      "quality": null,
+      "quote": "噗！",
+      "effect": "使用后，在当前房间内获得 窥眼的效果。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C605",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-32px -960px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 609,
+      "name": "永恒六面骰",
+      "en": "Eternal D6",
+      "quality": "III",
+      "quote": "???",
+      "effect": "使用后，重置房间中的道具，有概率使道具消失。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C609",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-160px -960px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 611,
+      "name": "声带",
+      "en": "Larynx",
+      "quality": "II",
+      "quote": "听清我的痛苦",
+      "effect": "充能不满也可使用。使用后，击退附近的敌人并造成伤害，充能越多效果越强。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C611",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-224px -960px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 622,
+      "name": "创世记",
+      "en": "Genesis",
+      "quality": "II",
+      "quote": "亘古之初",
+      "effect": "使用后，变回初始状态并重新选择道具。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C622",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-512px -960px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 623,
+      "name": "尖头钥匙",
+      "en": "Sharp Key",
+      "quality": "I",
+      "quote": "打开你的敌人",
+      "effect": "钥匙+5。使用后，消耗钥匙发射钥匙泪弹。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C623",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-544px -960px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 625,
+      "name": "超级蘑菇",
+      "en": "Mega Mush",
+      "quality": "IV",
+      "quote": "我现在是个大男孩了！",
+      "effect": "使用后，临时变大，无敌且各属性上升。",
+      "tags": [
+        "蘑菇",
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C625",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-608px -960px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 628,
+      "name": "死亡证明",
+      "en": "Death Certificate",
+      "quality": "IV",
+      "quote": "我在哪？",
+      "effect": "使用后，选择一个道具并获得。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C628",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-64px -992px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 631,
+      "name": "切肉刀",
+      "en": "Meat Cleaver",
+      "quality": null,
+      "quote": "切片不切丁",
+      "effect": "使用后，将敌人劈为两半。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C631",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-128px -992px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 635,
+      "name": "织布魔偶",
+      "en": "Stitches",
+      "quality": "I",
+      "quote": "偷天换日",
+      "effect": "射击键控制的跟班。使用后，与缝线娃娃互换位置。",
+      "tags": [
+        "独特跟班",
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C635",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-256px -992px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 636,
+      "name": "R键",
+      "en": "R Key",
+      "quality": "IV",
+      "quote": "是时候重新开始了",
+      "effect": "使用后，从初始楼层开始游戏，保留角色的状态。",
+      "tags": [
+        "攻击性",
+        "非大量过牌",
+        "非挑战",
+        "非每日"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C636",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-288px -992px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 638,
+      "name": "橡皮擦",
+      "en": "Eraser",
+      "quality": "I",
+      "quote": "擦除汝敌",
+      "effect": "使用后，擦除1种敌人。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C638",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-352px -992px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 639,
+      "name": "难吃的心",
+      "en": "Yuck Heart",
+      "quality": "I",
+      "quote": "恶心！",
+      "effect": "使用后，获得1个腐心。",
+      "tags": [
+        "非游魂长子名分"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C639",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-384px -992px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 640,
+      "name": "灵魂之瓮",
+      "en": "Urn of Souls",
+      "quality": "III",
+      "quote": "释放他们的悲恸",
+      "effect": "使用后，发射火焰对敌人进行攻击。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C640",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-416px -992px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 642,
+      "name": "玄奇驴皮",
+      "en": "Magic Skin",
+      "quality": "II",
+      "quote": "满足你所有的愿望",
+      "effect": "使用后，血量下降，生成一个道具。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C642",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-480px -992px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 650,
+      "name": "糖梅溜溜笛",
+      "en": "Plum Flute",
+      "quality": null,
+      "quote": "游戏时间！",
+      "effect": "使用后，生成梅子宝宝跟班。",
+      "tags": [
+        "攻击性",
+        "苍蝇"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C650",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-64px -1024px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 653,
+      "name": "驱魔护符",
+      "en": "Vade Retro",
+      "quality": "I",
+      "quote": "恶灵退散！",
+      "effect": "使用后，引爆幽灵。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C653",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-160px -1024px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 655,
+      "name": "幸运转盘",
+      "en": "Spin to Win",
+      "quality": null,
+      "quote": "转起来！",
+      "effect": "持续使用时，增加环绕物的速度。",
+      "tags": [
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C655",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-224px -1024px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 685,
+      "name": "魂火罐",
+      "en": "Jar of Wisps",
+      "quality": "I",
+      "quote": "你的信仰在增长",
+      "effect": "使用后，生成灵火跟班。使用次数越多生成数量越多。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C685",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-480px -1056px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 687,
+      "name": "寻友护符",
+      "en": "Friend Finder",
+      "quality": "II",
+      "quote": "好朋友一辈子！",
+      "effect": "使用后，生成一个友方怪物，模仿角色行为。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C687",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-544px -1056px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 703,
+      "name": "小以扫",
+      "en": "Esau Jr.",
+      "quality": "I",
+      "quote": "失去的兄弟",
+      "effect": "使用后，变为小以扫。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C703",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-416px -1088px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 704,
+      "name": "狂怒！",
+      "en": "Berserk!",
+      "quality": "I",
+      "quote": "撕毁割裂",
+      "effect": "使用后，暂时狂暴化，改为近战攻击。",
+      "tags": [
+        "攻击性",
+        "恶魔献祭"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C704",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-448px -1088px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 705,
+      "name": "暗仪刺刀",
+      "en": "Dark Arts",
+      "quality": "I",
+      "quote": "遁入暗影",
+      "effect": "使用后，短时间内无敌，效果结束后对接触过的敌人造成伤害。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C705",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-480px -1088px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 706,
+      "name": "无底坑",
+      "en": "Abyss",
+      "quality": "III",
+      "quote": "涌出深渊",
+      "effect": "使用后，吞噬房间中的所有道具并转化成蝗虫跟班。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C706",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-512px -1088px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 709,
+      "name": "背摔！",
+      "en": "Suplex!",
+      "quality": "I",
+      "quote": "弑神暴击",
+      "effect": "使用后，冲撞敌人并背摔。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C709",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-608px -1088px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 710,
+      "name": "合成宝袋",
+      "en": "Bag of Crafting",
+      "quality": "III",
+      "quote": "创造你的命运",
+      "effect": "挥舞袋子进行攻击或收集掉落物。使用后，将收集的掉落物合成为道具。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C710",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "0px -1120px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 711,
+      "name": "生死逆转",
+      "en": "Flip",
+      "quality": "IV",
+      "quote": "反转宿命",
+      "effect": "使用后，反转当前房间中的道具，如果人物是堕化拉撒路，还会反转生死。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C711",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-32px -1120px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 712,
+      "name": "所罗门魔典",
+      "en": "Lemegeton",
+      "quality": "III",
+      "quote": "物品召唤术",
+      "effect": "使用后，生成一个具有随机道具效果的跟班。",
+      "tags": [
+        "书",
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C712",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-64px -1120px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 713,
+      "name": "圣血吸管",
+      "en": "Sumptorium",
+      "quality": "III",
+      "quote": "以血还血",
+      "effect": "使用后，消耗半颗心，并生成一个血团宝宝。",
+      "tags": [
+        "非游魂长子名分"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C713",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-96px -1120px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 714,
+      "name": "召回",
+      "en": "Recall",
+      "quality": null,
+      "quote": "归位",
+      "effect": "使用后，召回堕化遗骸的身体。",
+      "tags": [
+        "非伊甸"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C714",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-128px -1120px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 715,
+      "name": "保留",
+      "en": "Hold",
+      "quality": null,
+      "quote": "留着备用",
+      "effect": "使用后，保存一个大便或将保存的大便拿出使用。",
+      "tags": [
+        "非伊甸",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C715",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-160px -1120px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 719,
+      "name": "店主的盒子",
+      "en": "Keeper's Box",
+      "quality": "I",
+      "quote": "便携式商店",
+      "effect": "使用后，生成一个可购买的物品。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C719",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-256px -1120px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 720,
+      "name": "百宝罐",
+      "en": "Everything Jar",
+      "quality": "II",
+      "quote": "一切皆有可能",
+      "effect": "使用后，根据充能生成不同的物品。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C720",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-288px -1120px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 722,
+      "name": "孤魂铁索",
+      "en": "Anima Sola",
+      "quality": "II",
+      "quote": "忏悔",
+      "effect": "使用后，束缚最近的敌人。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C722",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-352px -1120px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 723,
+      "name": "计数二十面骰",
+      "en": "Spindown Dice",
+      "quality": "IV",
+      "quote": "-1",
+      "effect": "使用后，将道具重置为ID-1的道具。",
+      "tags": [
+        "攻击性",
+        "非大量过牌"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C723",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-384px -1120px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 728,
+      "name": "格罗",
+      "en": "Gello",
+      "quality": "III",
+      "quote": "恶魔妊娠",
+      "effect": "使用后，生成连在身上可以操控发射泪弹的跟班。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C728",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-544px -1120px",
+        "width": "32px",
+        "height": "32px"
+      }
+    },
+    {
+      "category": "active",
+      "id": 729,
+      "name": "飞头攻击",
+      "en": "Decap Attack",
+      "quality": "I",
+      "quote": "扔出去！",
+      "effect": "使用后，扔出头进行攻击。",
+      "tags": [
+        "攻击性"
+      ],
+      "source": "https://isaac.huijiwiki.com/wiki/C729",
+      "icon": {
+        "url": "url(\"https://huiji-public.huijistatic.com/isaac/uploads/0/04/Collectibles_sprite.png\")",
+        "position": "-576px -1120px",
+        "width": "32px",
+        "height": "32px"
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#251e20">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'">
+  <title>以撒口袋图鉴</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="data.js" defer></script>
+  <script src="search.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="brand"><a href="#" class="brand-title" aria-label="返回图鉴首页"><span class="brand-mark" aria-hidden="true">✦</span><span>以撒口袋图鉴<small>THE POCKET OF ISAAC</small></span></a><span class="version">忏悔<span>+</span></span></header>
+    <main id="catalog">
+      <section class="intro"><div><p class="eyebrow">一本放进口袋的地下室手册</p><h1>下一件，会是什么？</h1><p class="muted">认识每一件宝物，让每一局多一点把握。</p></div><div class="hero-items" aria-hidden="true"><i class="sprite" style="background-image:url(assets/collectibles.png);background-position:-384px 0"></i><i class="sprite" style="background-image:url(assets/collectibles.png);background-position:-320px -160px"></i><i class="sprite" style="background-image:url(assets/collectibles.png);background-position:-128px 0"></i></div></section>
+      <section class="search-panel" aria-label="搜索与分类">
+        <div class="search-box"><span aria-hidden="true" class="search-symbol">⌕</span><input id="search" type="search" placeholder="搜索名称、编号或效果…" aria-label="搜索名称、编号或效果" autocomplete="off"><button id="clear-search" aria-label="清空搜索" hidden>×</button></div>
+        <div id="categories" class="categories" aria-label="物品分类"></div>
+      </section>
+      <div class="list-heading"><div><h2 id="list-title">被动道具</h2><span id="result-count" role="status" aria-live="polite"></span></div><div class="filters"><select id="quality" aria-label="品质筛选"><option value="">全部品质</option><option value="4">品质 4</option><option value="3">品质 3</option><option value="2">品质 2</option><option value="1">品质 1</option><option value="0">品质 0</option></select><select id="sort" aria-label="排序"><option value="id">编号 ↑</option><option value="quality">品质 ↓</option><option value="name">名称</option></select></div></div>
+      <div id="list" class="item-grid"></div>
+      <button id="load-more" class="load-more" hidden>继续查看</button>
+      <p id="list-note" class="list-note">资料已装进口袋，离线也能查阅。</p>
+    </main>
+    <main id="detail" class="detail" hidden></main>
+    <main id="quiz" class="quiz" hidden></main>
+    <main id="about" class="about" hidden></main>
+    <nav id="bottom-nav" class="bottom-nav" aria-label="主导航"><button data-view="catalog" class="active"><span aria-hidden="true">▦</span>图鉴</button><button data-view="quiz"><span aria-hidden="true">?</span>背词</button><button data-view="favorites"><span aria-hidden="true">♡</span>收藏</button><button data-view="recent"><span aria-hidden="true">◷</span>最近</button><button data-view="about"><span aria-hidden="true">ⓘ</span>关于</button></nav>
+  </div>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <noscript>请启用 JavaScript 以使用离线图鉴。</noscript>
+</body>
+</html>

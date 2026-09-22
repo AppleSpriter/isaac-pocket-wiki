@@ -1,0 +1,11 @@
+{
+  "name": "isaac-pocket-wiki",
+  "version": "0.4.1",
+  "private": true,
+  "description": "Offline Repentance+ pocket reference for Android",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "preview": "python3 scripts/preview.py",
+    "build:apk": "python3 scripts/build_apk.py"
+  }
+}
