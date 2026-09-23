@@ -4,7 +4,7 @@
 
 ## 当前状态
 
-**0.4.2 源码、APK 构建和浏览器检查已完成；待提交并上传 GitHub Release。Android 真机试用仍待进行。**
+**0.4.2 已提交至 GitHub `main` 并发布为最新 Release，APK 附件可下载且与本地构建逐字节一致。Android 真机试用仍待进行。**
 
 - APK：`output/isaac-pocket-0.4.2-debug.apk`，608,380 字节，约 594 KiB。
 - SHA-256：`082b07587b8b754c30bbe033f3c3ee2d5341a6ecf2e96ce1c387617cd40422ab`，另存 `output/SHA256SUMS.txt`。
@@ -26,7 +26,9 @@
 - 基线：仓库 `main` 为 `bcc0154`，GitHub `v0.4.1` 附件是 `isaac-pocket-0.4.1-debug.apk`，SHA-256 `1192b5764550ffbb3e095ab60fb36b162b60f00bc9181fa0323f1e545d94d0b8`。
 - 已实现：全局页面右侧留白处固定显示 `Applespriter` 水印，关于页增加制作署名；版本号与 README 更新为 0.4.2。构建脚本从 Manifest 读取版本号生成 APK 文件名，避免以后手工文件名与版本不一致。
 - 已验证：7 组自动化测试通过、JS/Python 语法检查通过；浏览器 390px 图鉴/背词和 320px 关于/详情视觉检查，320px 无横向溢出；APK v2/v3 签名、zipalign、ZIP 完整性通过，25 个网页资源与源码逐字节一致；新旧 APK 签名证书 SHA-256 相同；Manifest 没有声明权限。
-- 待办：提交并推送 `main`，创建并核对 v0.4.2 GitHub Release；用户安装后进行 Android 真机验证。浏览器检查不等于 Android 真机验证。
+- GitHub：源码提交 `4718f7e`，标签 `v0.4.2`，Release https://github.com/AppleSpriter/isaac-pocket-wiki/releases/tag/v0.4.2 。该 Release 已被标记为 Latest。
+- APK 与 `SHA256SUMS.txt` 附件状态均为 `uploaded`。从公开下载链接取回两者，与本地文件逐字节一致；APK SHA-256 与上方记录相同。
+- 待办：用户安装后进行 Android 真机验证。浏览器检查不等于 Android 真机验证。
 
 ## 已完成
 
@@ -72,7 +74,7 @@
 1. 用户安装 APK 后反馈：检查启动、离线搜索、系统返回键、键盘、安全区域、收藏重启保存，记录手机型号与 Android/WebView 版本。
 2. 若出现安装或运行问题，先复现并修复，不要把浏览器测试等同于真机通过。
 3. 根据用户反馈扩展完整详情（数值、解锁、协同）、俗称/拼音搜索、图片辨识、数据更新等；这些尚未获得额外明确范围，不预先声称完成。
-4. 若要正式分发，准备独立发布签名、版本升级策略；遵守对应数据及素材许可。
+4. 当前 GitHub Release 沿用本地测试签名以支持从 v0.4.1 覆盖安装。未来若改用独立发布签名，须先设计已安装用户的迁移方式；遵守对应数据及素材许可。
 5. 若刷新数据，重新采集原始快照、更新数量测试与快照日期、执行数据生成及测试、重新构建 APK。
 
 ## 常用命令
