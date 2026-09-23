@@ -1,14 +1,14 @@
 # 以撒口袋 Wiki — 进度与接续记录
 
-更新时间：2026-09-22。用户要求优先维护本文件；以后每完成一个阶段，都更新完成状态、实际验证范围和待办。
+更新时间：2026-09-23。用户要求优先维护本文件；以后每完成一个阶段，都更新完成状态、实际验证范围和待办。
 
 ## 当前状态
 
-**0.4.1 已修复全部图鉴按 C 编号混排主被动道具、更新 README 并重新构建 APK；当前待 Android 真机试用。**
+**0.4.2 源码、APK 构建和浏览器检查已完成；待提交并上传 GitHub Release。Android 真机试用仍待进行。**
 
-- APK：`output/isaac-pocket-0.4.1-debug.apk`，608,380 字节，约 594 KiB。
-- SHA-256：`4ae642d6b731d0c638a30cf2c9420d856c0c9aa26905f2ffdf96747aa335e6e3`，另存 `output/SHA256SUMS.txt`。
-- 包名：`wiki.isaac.pocket`；版本 0.4.1 / versionCode 5。
+- APK：`output/isaac-pocket-0.4.2-debug.apk`，608,380 字节，约 594 KiB。
+- SHA-256：`082b07587b8b754c30bbe033f3c3ee2d5341a6ecf2e96ce1c387617cd40422ab`，另存 `output/SHA256SUMS.txt`。
+- 包名：`wiki.isaac.pocket`；版本 0.4.2 / versionCode 6。
 - Android 8.0+（minSdk 26）、targetSdk 35；APK 使用本地测试签名。
 - 尚未连接 Android 真机/模拟器，不能声称已在真实 Android 设备上启动测试。
 
@@ -19,6 +19,14 @@
 - 初版包括被动道具、卡牌、套装、饰品；支持查询并显示编号、作用和介绍。
 - 来源参考：https://isaac.huijiwiki.com/wiki/道具 。
 - 用户要求创建并优先更新 `AGENT.md`，记录进度与待办。
+- 2026-09-23 用户要求在应用里加入 `Applespriter` 水印，并上传最新 GitHub Release。仓库为 `git@github.com:AppleSpriter/isaac-pocket-wiki.git`；开始时线上最新 Release 为 `v0.4.1`，本地 `main` 工作区干净。
+
+## 0.4.2 当前阶段（2026-09-23）
+
+- 基线：仓库 `main` 为 `bcc0154`，GitHub `v0.4.1` 附件是 `isaac-pocket-0.4.1-debug.apk`，SHA-256 `1192b5764550ffbb3e095ab60fb36b162b60f00bc9181fa0323f1e545d94d0b8`。
+- 已实现：全局页面右侧留白处固定显示 `Applespriter` 水印，关于页增加制作署名；版本号与 README 更新为 0.4.2。构建脚本从 Manifest 读取版本号生成 APK 文件名，避免以后手工文件名与版本不一致。
+- 已验证：7 组自动化测试通过、JS/Python 语法检查通过；浏览器 390px 图鉴/背词和 320px 关于/详情视觉检查，320px 无横向溢出；APK v2/v3 签名、zipalign、ZIP 完整性通过，25 个网页资源与源码逐字节一致；新旧 APK 签名证书 SHA-256 相同；Manifest 没有声明权限。
+- 待办：提交并推送 `main`，创建并核对 v0.4.2 GitHub Release；用户安装后进行 Android 真机验证。浏览器检查不等于 Android 真机验证。
 
 ## 已完成
 

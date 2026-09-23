@@ -1,10 +1,10 @@
 # 以撒口袋图鉴
 
-面向 Android 的《以撒的结合：忏悔+ / Repentance+》离线中文图鉴。当前版本 **0.4.1**。
+面向 Android 的《以撒的结合：忏悔+ / Repentance+》离线中文图鉴。当前版本 **0.4.2**。
 
 ## 安装与使用
 
-安装包：`output/isaac-pocket-0.4.1-debug.apk`。将 APK 传到 Android 手机上打开安装，系统提示时允许该文件管理器安装应用。支持 **Android 8.0（API 26）及以上**，使用系统 Android WebView。安装包使用本地调试签名，用于当前初版试用。
+安装包：`output/isaac-pocket-0.4.2-debug.apk`，也可从 [GitHub Releases](https://github.com/AppleSpriter/isaac-pocket-wiki/releases) 下载。将 APK 传到 Android 手机上打开安装，系统提示时允许该文件管理器安装应用。支持 **Android 8.0（API 26）及以上**，使用系统 Android WebView。安装包继续使用与 v0.4.1 相同的本地调试签名，可以覆盖安装旧版。
 
 首次启动无需下载资料，也不需要登录；应用不申请互联网或存储权限。
 
@@ -15,6 +15,7 @@
 - 套装详情包含获得条件和相关组件；组件中的主被动道具可以离线跳转。范围外的胶囊组件提供 Wiki 链接。
 - 收藏和最近 60 条查看记录保存在本机；卸载或清除数据会移除记录。
 - 详情页附有原条目链接；联网访问完整 Wiki 会交给系统浏览器。
+- 图鉴、背词、详情及关于页边缘显示 `Applespriter` 水印；关于页也有制作署名。
 
 ## 背词模式
 

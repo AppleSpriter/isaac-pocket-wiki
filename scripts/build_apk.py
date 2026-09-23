@@ -1,6 +1,7 @@
 """Build a local, debug-signed APK with official Android SDK tools; no Gradle needed."""
 from pathlib import Path
 import os, subprocess, shutil, zipfile, hashlib, sys
+from xml.etree import ElementTree
 
 ROOT=Path(__file__).resolve().parents[1]
 SDK=Path(os.environ.get('ANDROID_SDK_ROOT',ROOT/'.tools/android-sdk'))
@@ -29,7 +30,8 @@ def main():
     keystore=ROOT/'.tools/isaac-debug.keystore'
     if not keystore.exists():
         run(JDK/'bin/keytool','-genkeypair','-keystore',keystore,'-storepass','android','-keypass','android','-alias','androiddebugkey','-dname','CN=Isaac Pocket Local Debug,O=Local,C=CN','-keyalg','RSA','-keysize','2048','-validity','10000')
-    final=OUT/'isaac-pocket-0.4.1-debug.apk'
+    version=ElementTree.parse(MAIN/'AndroidManifest.xml').getroot().attrib['{http://schemas.android.com/apk/res/android}versionName']
+    final=OUT/f'isaac-pocket-{version}-debug.apk'
     run(JDK/'bin/java','-jar',BT/'lib/apksigner.jar','sign','--ks',keystore,'--ks-key-alias','androiddebugkey','--ks-pass','pass:android','--key-pass','pass:android','--out',final,BUILD/'aligned.apk')
     run(JDK/'bin/java','-jar',BT/'lib/apksigner.jar','verify','--verbose',final)
     digest=hashlib.sha256(final.read_bytes()).hexdigest()

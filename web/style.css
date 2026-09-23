@@ -4,3 +4,6 @@
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 
 .quiz-choice:disabled{opacity:1}.quiz-choice{overflow-wrap:anywhere}.quiz-name,.quiz-en{overflow-wrap:anywhere}@media(max-width:560px){.quiz-card{padding:20px 15px}.quiz-choices{grid-template-columns:1fr}.quiz-head{gap:10px}.quiz-head .muted{font-size:11px}.quiz-score{padding:8px}.quiz-head h1{font-size:23px}}
+
+/* A quiet creator watermark in the page gutter, visible in every view. */
+.creator-watermark{position:fixed;right:max(4px,calc((100vw - 1120px)/2 - 20px));top:50%;transform:translateY(-50%);writing-mode:vertical-rl;font:italic 11px Georgia,serif;letter-spacing:2px;color:var(--accent);opacity:.46;pointer-events:none;user-select:none;z-index:8}
