@@ -1,6 +1,6 @@
 # 以撒口袋图鉴
 
-面向 Android 与 HarmonyOS 的《以撒的结合：忏悔+ / Repentance+》离线中文图鉴。Android 版本 **0.4.2**；鸿蒙版本 **0.4.3**。
+面向 Android 与 HarmonyOS 的《以撒的结合：忏悔+ / Repentance+》离线中文图鉴。Android 版本 **0.4.2**；鸿蒙版本 **0.4.4**。
 
 ## Android 安装与使用
 
@@ -22,6 +22,8 @@
 Mate 60 / HarmonyOS 7 调试包：`output/isaac-pocket-harmony-0.4.3-mate60-debug.hap`，校验值见 `output/isaac-pocket-harmony-0.4.3-SHA256SUMS.txt`。包名为 `com.applespriter.isaacpocket`，版本号 0.4.3 / versionCode 7。该 HAP 使用为当前测试机生成的调试 Profile，**不适用于其他未注册设备，也不是面向应用市场的发布签名**。
 
 鸿蒙版包含与 Android 相同的 1022 条离线图鉴资料、1006 条背词题目、收藏与最近查看，以及 Applespriter 水印。道具列表底部的“下一页”按钮会追加 48 条并滚动到新一批的开头。华为阅读在部分 Mate 60 / HarmonyOS 7 设备上支持眼动翻页，但当前公开 SDK 未提供本应用可用的眼动事件接口；**本应用暂不支持眼动触发**，底部提示也说明了这一点。
+
+鸿蒙 0.4.4 支持被其他应用直接打开到某个道具：`startAbility({ bundleName: 'com.applespriter.isaacpocket', abilityName: 'EntryAbility', parameters: { item: 'C12' } })`。`item` 为图鉴条目 key（字母 + 数字，如 `C12`、`T1`），格式不符时忽略；冷启动直接进入详情，已运行时切换到该条目。「押注自己」的道具收藏用它跳转。
 
 0.4.2 调试包曾在 Mate 60 上成功安装、启动并显示图鉴和背词页。0.4.3 改为深色系统导航栏，并把底部安全区背景延伸到手势区域，以修复底部白条；**0.4.3 尚未由用户真机复测**。安装后建议依次检查：底部白条与手势区、飞行模式下搜索 `C118`/`K1`/`T1`、详情及系统返回、背词四选一、收藏后重启保存、列表底部“下一页”。
 

@@ -18,6 +18,7 @@
 - 用户指出截图底部有白色系统手势区域。0.4.3 在 `EntryAbility.ets` 设置状态栏/导航栏颜色，并在 ArkUI 根组件扩展底部安全区背景；去掉编译器标为手机不可用的窗口背景接口。**0.4.3 只完成源码、构建与静态校验，用户明确要求自行安装测试，助手不得再操作手机。**
 - 0.4.3 调试 HAP：`output/isaac-pocket-harmony-0.4.3-mate60-debug.hap`；SHA-256 `d4e21bdfb6cf1bf1427b02d03b22c615ed6e504945aadc919b15a6b4034a250a`。签名工具 `verify-app` 通过（debug Profile）；ZIP 完整性通过，26 个 rawfile 与仓库源文件逐字节一致。包名 `com.applespriter.isaacpocket`，版本 0.4.3 / versionCode 7。调试 Profile 仅面向已注册的 Mate 60，不能作为面向所有设备的公开发行包。
 - 本机 DevEco Studio 26.0.0 / SDK 26.0.0.105 / Hvigor 6.26.8 构建成功；`npm test` 7 组通过，rawfile 同步校验通过。0.4.3 **尚未安装/真机复测**，不能把 0.4.2 的真机截图写成 0.4.3 的结果。
+- 0.4.4（versionCode 8）：新增外部调用打开条目，`EntryAbility` 校验 `parameters.item`（`^[A-Za-z]{1,3}[0-9]{1,4}$`）后写入 AppStorage，页面冷启动用 `index.html#key`、运行中用 `runJavaScript(location.hash=...)`；`onInterceptRequest` 去掉 URL 的 `#` 片段。应用户要求已装到 Mate 60，`aa start --ps item C12` 返回成功，详情画面未截图确认（锁屏）。
 - 下一步：用户安装 0.4.3，首先确认底部白条是否消失、系统手势条与底部导航不重叠；再手测离线搜索、详情返回、背词四选一、收藏重启保存、列表下一页和来源链接。眼动翻页尚不可用，无需按已支持功能测试。用户反馈后再修复。
 
 - APK：`output/isaac-pocket-0.4.2-debug.apk`，608,380 字节，约 594 KiB。
