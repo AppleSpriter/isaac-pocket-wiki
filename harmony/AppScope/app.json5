@@ -1,0 +1,10 @@
+{
+  "app": {
+    "bundleName": "com.applespriter.isaacpocket",
+    "vendor": "Applespriter",
+    "versionCode": 7,
+    "versionName": "0.4.3",
+    "icon": "$media:icon",
+    "label": "$string:app_name"
+  }
+}

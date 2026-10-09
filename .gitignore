@@ -3,8 +3,17 @@ node_modules/
 android/.gradle/
 android/local.properties
 android/**/build/
+harmony/.hvigor/
+harmony/.idea/
+harmony/oh_modules/
+harmony/**/build/
+harmony/local.properties
 output/*
 !output/.gitkeep
 *.keystore
+*.p12
+*.p7b
+*.csr
+*.cer
 __pycache__/
 .DS_Store

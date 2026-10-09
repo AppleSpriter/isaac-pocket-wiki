@@ -1,0 +1,8 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "Offline Isaac Pocket Wiki entry module",
+  "main": "",
+  "author": "Applespriter",
+  "dependencies": {}
+}

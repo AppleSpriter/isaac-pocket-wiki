@@ -1,8 +1,8 @@
 # 以撒口袋图鉴
 
-面向 Android 的《以撒的结合：忏悔+ / Repentance+》离线中文图鉴。当前版本 **0.4.2**。
+面向 Android 与 HarmonyOS 的《以撒的结合：忏悔+ / Repentance+》离线中文图鉴。Android 版本 **0.4.2**；鸿蒙版本 **0.4.3**。
 
-## 安装与使用
+## Android 安装与使用
 
 安装包：`output/isaac-pocket-0.4.2-debug.apk`，也可从 [GitHub Releases](https://github.com/AppleSpriter/isaac-pocket-wiki/releases) 下载。将 APK 传到 Android 手机上打开安装，系统提示时允许该文件管理器安装应用。支持 **Android 8.0（API 26）及以上**，使用系统 Android WebView。安装包继续使用与 v0.4.1 相同的本地调试签名，可以覆盖安装旧版。
 
@@ -16,6 +16,27 @@
 - 收藏和最近 60 条查看记录保存在本机；卸载或清除数据会移除记录。
 - 详情页附有原条目链接；联网访问完整 Wiki 会交给系统浏览器。
 - 图鉴、背词、详情及关于页边缘显示 `Applespriter` 水印；关于页也有制作署名。
+
+## 鸿蒙版安装与测试
+
+Mate 60 / HarmonyOS 7 调试包：`output/isaac-pocket-harmony-0.4.3-mate60-debug.hap`，校验值见 `output/isaac-pocket-harmony-0.4.3-SHA256SUMS.txt`。包名为 `com.applespriter.isaacpocket`，版本号 0.4.3 / versionCode 7。该 HAP 使用为当前测试机生成的调试 Profile，**不适用于其他未注册设备，也不是面向应用市场的发布签名**。
+
+鸿蒙版包含与 Android 相同的 1022 条离线图鉴资料、1006 条背词题目、收藏与最近查看，以及 Applespriter 水印。道具列表底部的“下一页”按钮会追加 48 条并滚动到新一批的开头。华为阅读在部分 Mate 60 / HarmonyOS 7 设备上支持眼动翻页，但当前公开 SDK 未提供本应用可用的眼动事件接口；**本应用暂不支持眼动触发**，底部提示也说明了这一点。
+
+0.4.2 调试包曾在 Mate 60 上成功安装、启动并显示图鉴和背词页。0.4.3 改为深色系统导航栏，并把底部安全区背景延伸到手势区域，以修复底部白条；**0.4.3 尚未由用户真机复测**。安装后建议依次检查：底部白条与手势区、飞行模式下搜索 `C118`/`K1`/`T1`、详情及系统返回、背词四选一、收藏后重启保存、列表底部“下一页”。
+
+可提交的 ArkTS 工程在 `harmony/`，网页资源由 `python3 scripts/sync_harmony_web.py` 同步到 `rawfile`。DevEco Studio 不接受路径中含空格的工程；请将 `harmony/` 复制到任意无空格路径作为本机工作副本。本机调试签名配置、证书和密钥**不得提交到 Git**。仓库中的 `harmony/build-profile.json5` 不含签名材料。在 DevEco 配好目标设备的调试签名后，可用本机 DevEco 自带工具构建：
+
+```sh
+export NODE_HOME=/Applications/DevEco-Studio.app/Contents/tools/node
+export DEVECO_SDK_HOME=/Applications/DevEco-Studio.app/Contents/sdk
+export JAVA_HOME=/Applications/DevEco-Studio.app/Contents/jbr/Contents/Home
+export ISAAC_HARMONY_PROJECT=/path/to/IsaacWikiHarmony
+cd "$ISAAC_HARMONY_PROJECT"
+/Applications/DevEco-Studio.app/Contents/tools/hvigor/bin/hvigorw assembleHap --mode module -p product=default -p buildMode=debug --no-daemon
+```
+
+成功后生成 `entry/build/default/outputs/default/entry-default-signed.hap`。换其他鸿蒙设备测试时，需要重新为该设备配置调试 Profile。
 
 ## 背词模式
 
