@@ -5,7 +5,7 @@ import { OPEN_ITEM_KEY } from '../entryability/EntryAbility';
 // The reserved .invalid domain is never contacted: every bundled file is
 // served from rawfile by onInterceptRequest under one secure Web origin.
 const OFFLINE_ROOT: string = 'https://isaac-pocket.invalid/';
-const LOCAL_FILE: RegExp = /^(index\.html|style\.css|app\.js|search\.js|data\.js|data\.json|platform\.js|assets\/[a-zA-Z0-9-]+\.(png|gif))$/;
+const LOCAL_FILE: RegExp = /^(index\.html|style\.css|app\.js|search\.js|catalog\.js|overview\.js|data\.js|data\.json|platform\.js|assets\/[a-zA-Z0-9-]+\.(png|gif))$/;
 
 @Entry
 @Component

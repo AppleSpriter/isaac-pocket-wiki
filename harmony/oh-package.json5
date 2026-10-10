@@ -1,7 +1,7 @@
 {
   "modelVersion": "26.0.0",
   "name": "isaac-pocket-harmony",
-  "version": "0.4.3",
+  "version": "0.5.0",
   "description": "Offline Repentance+ pocket reference for HarmonyOS",
   "dependencies": {},
   "devDependencies": {}

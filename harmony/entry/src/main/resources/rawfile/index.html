@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="style.css">
   <script src="data.js" defer></script>
   <script src="search.js" defer></script>
+  <script src="catalog.js" defer></script>
+  <script src="overview.js" defer></script>
   <script src="platform.js" defer></script>
   <script src="app.js" defer></script>
 </head>
@@ -22,9 +24,11 @@
         <div class="search-box"><span aria-hidden="true" class="search-symbol">⌕</span><input id="search" type="search" placeholder="搜索名称、编号或效果…" aria-label="搜索名称、编号或效果" autocomplete="off"><button id="clear-search" aria-label="清空搜索" hidden>×</button></div>
         <div id="categories" class="categories" aria-label="物品分类"></div>
       </section>
-      <div class="list-heading"><div><h2 id="list-title">被动道具</h2><span id="result-count" role="status" aria-live="polite"></span></div><div class="filters"><select id="quality" aria-label="品质筛选"><option value="">全部品质</option><option value="4">品质 4</option><option value="3">品质 3</option><option value="2">品质 2</option><option value="1">品质 1</option><option value="0">品质 0</option></select><select id="sort" aria-label="排序"><option value="id">编号 ↑</option><option value="quality">品质 ↓</option><option value="name">名称</option></select></div></div>
+      <div class="list-heading"><div><h2 id="list-title">全部图鉴</h2><span id="result-count" role="status" aria-live="polite"></span></div><div class="filters"><select id="quality" aria-label="品质筛选"><option value="">全部品质</option><option value="4">品质 4</option><option value="3">品质 3</option><option value="2">品质 2</option><option value="1">品质 1</option><option value="0">品质 0</option></select><select id="sort" aria-label="排序"><option value="id">编号 ↑</option><option value="quality">品质 ↓</option><option value="name">名称</option></select></div></div>
+      <div class="catalog-tools"><button id="overview-open" type="button">▦ 图标总览</button><span id="page-summary"></span></div>
+      <p id="list-location" class="list-location" role="status" hidden></p>
       <div id="list" class="item-grid"></div>
-      <button id="load-more" class="load-more" hidden>继续查看</button>
+      <nav id="page-nav" class="page-nav" aria-label="图鉴分页"><button id="prev-page" type="button">← 上一页</button><label>第 <input id="page-number" type="number" min="1" value="1" inputmode="numeric" aria-label="跳转到页码"> / <span id="page-count">1</span> 页</label><button id="next-page" type="button">下一页 →</button></nav>
       <p id="list-note" class="list-note">资料已装进口袋，离线也能查阅。</p>
     </main>
     <main id="detail" class="detail" hidden></main>
@@ -32,6 +36,7 @@
     <main id="about" class="about" hidden></main>
     <nav id="bottom-nav" class="bottom-nav" aria-label="主导航"><button data-view="catalog" class="active"><span aria-hidden="true">▦</span>图鉴</button><button data-view="quiz"><span aria-hidden="true">?</span>背词</button><button data-view="favorites"><span aria-hidden="true">♡</span>收藏</button><button data-view="recent"><span aria-hidden="true">◷</span>最近</button><button data-view="about"><span aria-hidden="true">ⓘ</span>关于</button></nav>
   </div>
+  <dialog id="overview-dialog" class="overview-dialog" aria-label="图标总览"></dialog>
   <div id="toast" class="toast" role="status" hidden></div>
   <noscript>请启用 JavaScript 以使用离线图鉴。</noscript>
 </body>

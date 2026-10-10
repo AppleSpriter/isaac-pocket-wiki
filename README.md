@@ -1,10 +1,10 @@
 # 以撒口袋图鉴
 
-面向 Android 与 HarmonyOS 的《以撒的结合：忏悔+ / Repentance+》离线中文图鉴。Android 版本 **0.4.2**；鸿蒙版本 **0.4.4**。
+面向 Android 与 HarmonyOS 的《以撒的结合：忏悔+ / Repentance+》离线中文图鉴。Android 与鸿蒙测试版本均为 **0.5.0**。
 
 ## Android 安装与使用
 
-安装包：`output/isaac-pocket-0.4.2-debug.apk`，也可从 [GitHub Releases](https://github.com/AppleSpriter/isaac-pocket-wiki/releases) 下载。将 APK 传到 Android 手机上打开安装，系统提示时允许该文件管理器安装应用。支持 **Android 8.0（API 26）及以上**，使用系统 Android WebView。安装包继续使用与 v0.4.1 相同的本地调试签名，可以覆盖安装旧版。
+测试安装包：`output/isaac-pocket-0.5.0-debug.apk`；已公开发布的版本可从 [GitHub Releases](https://github.com/AppleSpriter/isaac-pocket-wiki/releases) 下载。将 APK 传到 Android 手机上打开安装，系统提示时允许该文件管理器安装应用。支持 **Android 8.0（API 26）及以上**，使用系统 Android WebView。安装包沿用已有本地调试签名，可以覆盖安装旧版。
 
 首次启动无需下载资料，也不需要登录；应用不申请互联网或存储权限。
 
@@ -16,16 +16,19 @@
 - 收藏和最近 60 条查看记录保存在本机；卸载或清除数据会移除记录。
 - 详情页附有原条目链接；联网访问完整 Wiki 会交给系统浏览器。
 - 图鉴、背词、详情及关于页边缘显示 `Applespriter` 水印；关于页也有制作署名。
+- 首次默认选中“全部”；此后记住上次分类、品质、排序和各分类的浏览位置，切换标签或重启后继续沿用。卸载或清除应用数据会重置记录。
+- 图鉴每页 48 条，支持上一页、下一页和直接输入页码。搜索唯一结果后会记住目标；清空搜索、从搜索详情返回或点“定位到列表”，都可从目标所在页继续查看前后的条目。
+- “图标总览”使用本地图标显示当前分类的完整图，支持双指缩放、拖动、缩放按钮/滑条；点击图标后跳到完整列表中对应的卡片。
 
 ## 鸿蒙版安装与测试
 
-Mate 60 / HarmonyOS 7 调试包：`output/isaac-pocket-harmony-0.4.3-mate60-debug.hap`，校验值见 `output/isaac-pocket-harmony-0.4.3-SHA256SUMS.txt`。包名为 `com.applespriter.isaacpocket`，版本号 0.4.3 / versionCode 7。该 HAP 使用为当前测试机生成的调试 Profile，**不适用于其他未注册设备，也不是面向应用市场的发布签名**。
+Mate 60 / HarmonyOS 7 调试包：`output/isaac-pocket-harmony-0.5.0-mate60-debug.hap`，APK/HAP 校验值见 `output/SHA256SUMS-0.5.0.txt`。包名为 `com.applespriter.isaacpocket`，版本号 0.5.0 / versionCode 9。该 HAP 使用为当前测试机生成的调试 Profile，**不适用于其他未注册设备，也不是面向应用市场的发布签名**。
 
-鸿蒙版包含与 Android 相同的 1022 条离线图鉴资料、1006 条背词题目、收藏与最近查看，以及 Applespriter 水印。道具列表底部的“下一页”按钮会追加 48 条并滚动到新一批的开头。华为阅读在部分 Mate 60 / HarmonyOS 7 设备上支持眼动翻页，但当前公开 SDK 未提供本应用可用的眼动事件接口；**本应用暂不支持眼动触发**，底部提示也说明了这一点。
+鸿蒙版包含与 Android 相同的 1022 条离线图鉴资料、1006 条背词题目、分页定位、总览图、收藏与最近查看，以及 Applespriter 水印。华为阅读在部分 Mate 60 / HarmonyOS 7 设备上支持眼动翻页，但当前公开 SDK 未提供本应用可用的眼动事件接口；**本应用暂不支持眼动触发**，底部提示也说明了这一点。
 
-鸿蒙 0.4.4 支持被其他应用直接打开到某个道具：`startAbility({ bundleName: 'com.applespriter.isaacpocket', abilityName: 'EntryAbility', parameters: { item: 'C12' } })`。`item` 为图鉴条目 key（字母 + 数字，如 `C12`、`T1`），格式不符时忽略；冷启动直接进入详情，已运行时切换到该条目。「押注自己」的道具收藏用它跳转。
+鸿蒙保留 0.4.4 新增的跨应用入口：`startAbility({ bundleName: 'com.applespriter.isaacpocket', abilityName: 'EntryAbility', parameters: { item: 'C12' } })`。`item` 为图鉴条目 key（字母 + 数字，如 `C12`、`T1`），格式不符时忽略；冷启动直接进入详情，已运行时切换到该条目。「押注自己」的道具收藏用它跳转。0.5.0 从入口详情返回后定位到对应列表页。
 
-0.4.2 调试包曾在 Mate 60 上成功安装、启动并显示图鉴和背词页。0.4.3 改为深色系统导航栏，并把底部安全区背景延伸到手势区域，以修复底部白条；**0.4.3 尚未由用户真机复测**。安装后建议依次检查：底部白条与手势区、飞行模式下搜索 `C118`/`K1`/`T1`、详情及系统返回、背词四选一、收藏后重启保存、列表底部“下一页”。
+0.5.0 已完成本地自动化、独立浏览器回归、APK/HAP 构建与签名/资源校验，**尚未由用户真机测试**。安装后重点检查：C600 搜索后清空及详情返回的列表位置、主动分类在切换标签和重启后保留、总览双指缩放/拖动/点选、从其他应用打开条目后的返回。原有离线查询、背词、收藏保存和系统手势区域也需安装后检查。
 
 可提交的 ArkTS 工程在 `harmony/`，网页资源由 `python3 scripts/sync_harmony_web.py` 同步到 `rawfile`。DevEco Studio 不接受路径中含空格的工程；请将 `harmony/` 复制到任意无空格路径作为本机工作副本。本机调试签名配置、证书和密钥**不得提交到 Git**。仓库中的 `harmony/build-profile.json5` 不含签名材料。在 DevEco 配好目标设备的调试签名后，可用本机 DevEco 自带工具构建：
 
@@ -64,7 +67,9 @@ python3 scripts/preview.py
 npm test
 ```
 
-测试覆盖分类数量、唯一键、本地图标、精确编号（含前缀与全角输入）、名称/效果搜索、品质与收藏组合过滤、套装版本差异和新增套装组件。
+13 组测试覆盖分类数量、唯一键、本地图标、精确编号、名称/效果搜索、品质与收藏组合过滤、套装关系，以及高编号分页定位、分类状态恢复、损坏记录回退和总览所有键的定位。
+
+如环境已提供 Playwright，并已启动预览服务，可运行 `npm run test:ui`。浏览器回归覆盖搜索定位、分类重载记忆、双指缩放及点选、入口返回与窄屏布局；它不能替代手机上的 WebView/ArkWeb 测试。
 
 重新生成数据（已生成的数据可直接用于构建，无需此步骤）：
 
