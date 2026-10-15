@@ -1,6 +1,6 @@
 # 以撒口袋图鉴
 
-面向 Android 与 HarmonyOS 的《以撒的结合：忏悔+ / Repentance+》离线中文图鉴。当前版本 **0.6.1** 已包含全部 1022 条图鉴的 Wiki 正文及 641 项成就，完成本地构建与校验；真机测试由用户安装后进行。
+面向 Android 与 HarmonyOS 的《以撒的结合：忏悔+ / Repentance+》离线中文图鉴。当前版本 **0.6.1** 已包含全部 1022 条图鉴的 Wiki 正文及 641 项成就，完成本地构建与校验；真机测试由用户安装后进行。 下载见 [v0.6.1 Release](https://github.com/AppleSpriter/isaac-pocket-wiki/releases/tag/v0.6.1)。
 
 ## Android 安装与使用
 

@@ -4,7 +4,7 @@
 
 ## 当前状态
 
-**0.6.1 已完成“我的”标签整理、Wiki 一键展开/收起及默认展开设置，完成浏览器回归和 APK/HAP 构建与签名校验。保留 0.6.0 的 1022 条正文和 641 项成就。手机测试由用户负责；助手未安装或操作手机。**
+**0.6.1 已完成“我的”标签整理、Wiki 一键展开/收起及默认展开设置，完成浏览器回归和 APK/HAP 构建与签名校验。保留 0.6.0 的 1022 条正文和 641 项成就，已推送 GitHub 并发布 v0.6.1（Latest）。手机测试由用户负责；助手未安装或操作手机。**
 
 ## 0.6.1 GitHub 发布阶段（2026-10-15）
 
@@ -12,7 +12,8 @@
 - 公开附件准备为 Android APK、鸿蒙未签名 HAP（需自行签名）和对应 `SHA256SUMS.txt`。Mate 60 专用签名 HAP 包含实际设备注册标识及开发者元数据，仅保留本机；此次不修改已有旧 Release。
 - 已核对：公开源码无本机用户名/路径、口令、密钥；原始正文快照为 1022 个唯一来源页，47,386,156 字节，低于 GitHub 单文件限制。APK 28 个资源、未签名 HAP 29 个资源与当前源码逐字节一致，ZIP 完整。
 - 公开鸿蒙包：`output/isaac-pocket-harmony-0.6.1-unsigned.hap`，14,913,823 字节，SHA-256 `f45510bb3b9b6935d7a6a5ecca4201ecd87b565419226a0112276e2cb85276eb`；已确认无设备 ID、Profile、开发者证书或签名块。公开校验文件 `output/release-v0.6.1/SHA256SUMS.txt`。
-- 进行中：提交并推送当前源码、创建 v0.6.1 标签和 Release、校验线上附件。完成后以新的发布验证记录为准。
+- 已完成：功能源码提交 `ecb97dfefb9ca48121d185713a6566647836627b` 及 `v0.6.1` 标签已推送；Release https://github.com/AppleSpriter/isaac-pocket-wiki/releases/tag/v0.6.1 已公开，`isDraft=false`、`isPrerelease=false`、`isLatest=true`。
+- 三个公开附件状态均为 `uploaded`，文件大小及 GitHub SHA-256 与本地一致；已从 GitHub 重新下载 APK、未签名 HAP 和校验文件并逐字节比对通过。版本标签指向上述功能提交；后续仅发布记录更新，不改变应用包。
 
 ## 0.6.1 当前阶段（2026-10-15）
 
@@ -22,7 +23,7 @@
 - 已验证：13 组 JS 回归、JS 语法、diff 校验、rawfile 同步通过。浏览器验证四个底栏/四个子标签、默认收藏及切页记忆、开关重载保存、C105 全部展开/全部收起、手动关闭轶事后跳 A29 返回仍保持 5/6 章展开、关闭默认偏好后新详情仅首章展开、收藏搜索 C105 打开再返回保留“我的 → 收藏”及查询。320px 无横向溢出，标签可完整点击；浏览器验证不等于手机验证。
 - Android 0.6.1 / versionCode 11：v2/v3 签名、zipalign、ZIP 完整性与 28 个资源逐字节一致校验通过。APK：`output/isaac-pocket-0.6.1-debug.apk`，4,143,431 字节，SHA-256 `fbeece8022a95229ab7cebb86dbfae572af190aad7ed8f033a7edc8e73669b88`。
 - HarmonyOS 0.6.1 / versionCode 11：DevEco/Hvigor 构建成功，`verify-app` 确认 debug 签名有效；ZIP 完整性及 29 个 rawfile 与源码一致，无声明权限。HAP：`output/isaac-pocket-harmony-0.6.1-mate60-debug.hap`，14,956,629 字节，SHA-256 `a91edd771c95606192cfffbf856048443bd3042f5fda701ea70e0b814e9cdcf0`。仅适用于现有注册测试机；合并校验文件 `output/SHA256SUMS-0.6.1.txt`。
-- 本机 DevEco 工作副本已在逐文件核对 0.6.0 基线后同步本版，私有签名配置未改动；未操作手机。源码仍在本地，未创建新 GitHub Release。
+- 本机 DevEco 工作副本已在逐文件核对 0.6.0 基线后同步本版，私有签名配置未改动；未操作手机。源码与公开 Release 已上传，状态见上方 GitHub 发布记录。
 - 下一步由用户测试：底栏“我的”及四个标签是否正常；收藏/最近的详情返回；打开默认展开设置后退出重进应用，再打开不同道具确认全部展开；检查全部收起/展开与原有成就互跳、返回、分类位置记忆。
 
 ## 0.6.0 当前阶段（2026-10-15）
