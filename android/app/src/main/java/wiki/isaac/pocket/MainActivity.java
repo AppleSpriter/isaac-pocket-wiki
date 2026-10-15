@@ -55,7 +55,7 @@ public final class MainActivity extends Activity {
                 String path = uri.getPath();
                 if (!"https".equals(uri.getScheme()) || !HOST.equals(uri.getHost()) || path == null || !path.startsWith("/assets/") || path.contains("..")) return denied();
                 String asset = path.substring(8);
-                String mime = asset.endsWith(".html") ? "text/html" : asset.endsWith(".css") ? "text/css" : asset.endsWith(".js") ? "application/javascript" : asset.endsWith(".json") ? "application/json" : asset.endsWith(".gif") ? "image/gif" : asset.endsWith(".png") ? "image/png" : "application/octet-stream";
+                String mime = asset.endsWith(".html") ? "text/html" : asset.endsWith(".css") ? "text/css" : asset.endsWith(".js") ? "application/javascript" : asset.endsWith(".json") ? "application/json" : asset.endsWith(".gif") ? "image/gif" : asset.endsWith(".png") ? "image/png" : asset.endsWith(".jpg") || asset.endsWith(".jpeg") ? "image/jpeg" : "application/octet-stream";
                 try { return new WebResourceResponse(mime,"UTF-8",200,"OK",Collections.singletonMap("Cache-Control","no-cache"),getAssets().open(asset)); }
                 catch(IOException e) { return denied(); }
             }

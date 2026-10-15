@@ -1,3 +1,3 @@
 window.ISAAC_PLATFORM = 'harmony';
-window.ISAAC_APP_VERSION = '0.5.0';
+window.ISAAC_APP_VERSION = '0.6.1';
 document.addEventListener('DOMContentLoaded', () => document.body.classList.add('harmony'));

@@ -3,6 +3,7 @@ node_modules/
 android/.gradle/
 android/local.properties
 android/**/build/
+.hvigor/
 harmony/.hvigor/
 harmony/.idea/
 harmony/oh_modules/

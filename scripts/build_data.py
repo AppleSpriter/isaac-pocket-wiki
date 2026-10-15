@@ -1,7 +1,8 @@
 """Normalize the preserved Huijiwiki Repentance+ snapshots. No live scraping."""
-import json, re, urllib.request
+import argparse, json, re, urllib.request
 from pathlib import Path
 from bs4 import BeautifulSoup
+from wiki_data import enrich, normalize_versions
 
 ROOT = Path(__file__).resolve().parents[1]
 SPRITES = {'Collectibles': 'collectibles', 'Trinket': 'trinkets', 'Cards': 'cards', 'Runes': 'runes'}
@@ -9,8 +10,7 @@ PREFIX = {'passive': 'C', 'active': 'C', 'trinket': 'T', 'card': 'K'}
 
 def clean(html):
     soup = BeautifulSoup(html, 'html.parser')
-    for n in soup.select('.dif-cell'):
-        if not {'dif-rp', 'dif-rpp'}.intersection(n.get('class', [])): n.decompose()
+    normalize_versions(soup)
     for n in soup.select('script,style,svg,.mw-editsection'): n.decompose()
     return soup
 
@@ -18,7 +18,7 @@ def text(n):
     if n is None: return ''
     return re.sub(r'\s+', ' ', n.get_text('', strip=False)).strip()
 
-def main():
+def main(require_complete=False):
     raw = json.loads((ROOT/'data/raw/items.json').read_text())
     entries = []
     for e in raw['entries']:
@@ -59,11 +59,28 @@ def main():
     assert counts=={'active':170,'passive':551,'card':97,'set':16,'trinket':188},counts
     assert len({e['key'] for e in entries})==len(entries)
     assert all(e['name'] and e['effect'] and e['source'] for e in entries)
-    data = {'schemaVersion':1,'gameVersion':'Repentance+','snapshotDate':raw['date'], 'counts':counts,
-        'source':'以撒的结合中文维基 · 灰机wiki','entries':entries}
+    def snapshot(kind):
+        path = ROOT / 'data/raw' / (kind + '.json')
+        return json.loads(path.read_text()) if path.exists() else {'entries': []}
+    articles, achievement_raw = snapshot('articles'), snapshot('achievements')
+    assert len({e['key'] for e in articles['entries']}) == len(articles['entries']), 'Duplicate article keys'
+    assert {e['key'] for e in articles['entries']} <= {e['key'] for e in entries}, 'Unknown article keys'
+    assert len({e['id'] for e in achievement_raw['entries']}) == len(achievement_raw['entries']), 'Duplicate achievement IDs'
+    achievements = enrich(entries, articles, achievement_raw)
+    missing = [e['key'] for e in entries if not any(s['title'] != '详细资料' and text(BeautifulSoup(s['html'], 'html.parser')) for s in e.get('wiki', {}).get('sections', []))]
+    if require_complete:
+        assert not missing, 'Missing Wiki articles: ' + ', '.join(missing)
+        assert {a['id'] for a in achievements} == set(range(1, 642)), 'Incomplete Repentance+ achievements (expected IDs 1–641)'
+    data = {'schemaVersion':2,'gameVersion':'Repentance+','snapshotDate':raw['date'], 'counts':counts,
+        'wikiSnapshotDate': articles.get('date'), 'achievementSnapshotDate': achievement_raw.get('date'),
+        'detailCoverage': {'articles': len(entries) - len(missing), 'total': len(entries), 'missing': missing},
+        'source':'以撒的结合中文维基 · 灰机wiki','entries':entries,'achievements':achievements}
     encoded = json.dumps(data, ensure_ascii=False, separators=(',',':'))
     (ROOT/'web/data.json').write_text(json.dumps(data,ensure_ascii=False,indent=2))
     (ROOT/'web/data.js').write_text('window.ISAAC_DATA = '+encoded+';\n')
-    print('Built:',counts,'total',len(entries))
+    print('Built:',counts,'total',len(entries),'Wiki articles',len(entries)-len(missing),'achievements',len(achievements))
 
-if __name__=='__main__': main()
+if __name__=='__main__':
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--require-complete', action='store_true')
+    main(parser.parse_args().require_complete)

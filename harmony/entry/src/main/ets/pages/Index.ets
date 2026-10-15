@@ -5,7 +5,7 @@ import { OPEN_ITEM_KEY } from '../entryability/EntryAbility';
 // The reserved .invalid domain is never contacted: every bundled file is
 // served from rawfile by onInterceptRequest under one secure Web origin.
 const OFFLINE_ROOT: string = 'https://isaac-pocket.invalid/';
-const LOCAL_FILE: RegExp = /^(index\.html|style\.css|app\.js|search\.js|catalog\.js|overview\.js|data\.js|data\.json|platform\.js|assets\/[a-zA-Z0-9-]+\.(png|gif))$/;
+const LOCAL_FILE: RegExp = /^(index\.html|style\.css|app\.js|search\.js|catalog\.js|overview\.js|data\.js|data\.json|platform\.js|assets\/[a-zA-Z0-9-]+\.(png|gif|jpg|jpeg))$/;
 
 @Entry
 @Component
@@ -29,12 +29,12 @@ struct Index {
     if (path.endsWith('.js')) return 'application/javascript';
     if (path.endsWith('.json')) return 'application/json';
     if (path.endsWith('.gif')) return 'image/gif';
+    if (path.endsWith('.jpg') || path.endsWith('.jpeg')) return 'image/jpeg';
     return 'image/png';
   }
 
   private openSource(url: string): void {
-    if (!url.startsWith('https://isaac.huijiwiki.com/') &&
-        !url.startsWith('https://creativecommons.org/')) return;
+    if (!url.startsWith('https://')) return;
     const context = this.getUIContext().getHostContext() as common.UIAbilityContext;
     context.startAbility({
       action: 'ohos.want.action.viewData',
